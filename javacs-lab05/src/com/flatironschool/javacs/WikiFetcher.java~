@@ -29,20 +29,12 @@ public class WikiFetcher {
 		// download and parse the document
 		Connection conn = Jsoup.connect(url);
 		Document doc = conn.get();
-		//ArrayList<Element> listLinks = new ArrayList<Element>();
+
 		// select the content text and pull out the paragraphs.
 		Element content = doc.getElementById("mw-content-text");
 
 		// TODO: avoid selecting paragraphs from sidebars and boxouts
-		Elements paras = content.select("p");
-		/* for (Element link: links){
-			boolean isItalic = false;
-			Elements ancestors = link.parents();
-			if (ancestors.hasAttr("i") || ancestors.hasAttr("em")){
-				isItalic = true;
-			}
-			if 
-		} */
+		Elements paras = content.select("a[href]");
 		return paras;
 	}
 
@@ -66,7 +58,7 @@ public class WikiFetcher {
 
 		// TODO: factor out the following repeated code
 		Element content = doc.getElementById("mw-content-text");
-		Elements paras = content.select("p");
+		Elements paras = content.select("a[href]");
 		return paras;
 	}
 
