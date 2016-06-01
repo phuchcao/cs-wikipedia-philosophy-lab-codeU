@@ -48,31 +48,58 @@ public class WikiPhilosophy {
 			System.out.println("Not valid url!");
 			return listLink;
 		}
-		int iterIndex = 0;
-		int linkIndex = 0;
-
+		
+		
+		//loop through all paragraph elements
 		for (int i = 0; i < paras.size(); i++){
+			Stack<Character> paren = new Stack<Character>();
 			Element para = paras.get(i);
 			
 			Iterable<Node> iter = new WikiNodeIterable(para);
 			Elements allLinks = para.getElementsByAttribute("href");
 
+			//iterate with nodes
 			for (Node node: iter) {
+				//get texts from nodes
+				String text;
 				if (!(node instanceof TextNode)){
-					Element duh = (Element) node;
-					System.out.println(duh.text());
-				} 
+					Element test = (Element) node;
+					text = test.ownText();
+				} else {
+					TextNode temp = (TextNode) node;
+					text = temp.text();
+				}
+
 				boolean validLink = true;
+				//get links from nodes (if exist)
 				String current = node.attr("abs:href");
+				
 				for (Element elem: allLinks){
 					Node temp = (Node) elem;
 					if (elem.attr("abs:href").equals(current)){
+						//checking italics
 						Elements ancestors = elem.parents();
 						if (ancestors.hasAttr("i") || ancestors.hasAttr("em")){
 							validLink = false;
-							System.out.println("hey hey hey this is working");
+							System.out.println("Link is in italics!");
 							break;
 						}
+
+						//checking parenthesis
+						if (paren.size() != 0){
+							validLink = false;
+							System.out.println("Link is in parenthesis!");
+							break;
+						}
+					}
+				}
+
+				//stack to keep track of parens
+				for (int j = 0; j < text.length(); j++){
+					if (text.charAt(j)=='('){
+						paren.push('(');
+					} else if (text.charAt(j) == ')'){
+						paren.pop();
 					}
 				}
 

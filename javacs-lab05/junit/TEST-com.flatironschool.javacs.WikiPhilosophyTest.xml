@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Phucs-MacBook-Air.local" name="com.flatironschool.javacs.WikiPhilosophyTest" skipped="0" tests="1" time="41.667" timestamp="2016-05-31T14:02:02">
+<testsuite errors="0" failures="0" hostname="Phucs-MacBook-Air.local" name="com.flatironschool.javacs.WikiPhilosophyTest" skipped="0" tests="1" time="12.684" timestamp="2016-06-01T13:54:14">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -17,11 +17,12 @@
     <property name="ant.home" value="/usr/local/Cellar/ant/1.9.7/libexec" />
     <property name="java.runtime.version" value="1.8.0_92-b14" />
     <property name="env.MY_RUBY_HOME" value="/Users/phuccao/.rvm/rubies/ruby-2.3.0" />
-    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.SGQmnEEnA1/Render" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.JD4gwlexHw/Render" />
     <property name="env.rvm_version" value="1.27.0 (latest)" />
     <property name="user.name" value="phuccao" />
     <property name="env.USER" value="phuccao" />
     <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.JAVA_MAIN_CLASS_798" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
     <property name="env._system_type" value="Darwin" />
     <property name="env.PATH" value="/Users/phuccao/.rvm/gems/ruby-2.3.0/bin:/Users/phuccao/.rvm/gems/ruby-2.3.0@global/bin:/Users/phuccao/.rvm/rubies/ruby-2.3.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/phuccao/.rvm/bin" />
@@ -35,7 +36,6 @@
     <property name="env.RUBY_VERSION" value="ruby-2.3.0" />
     <property name="java.version" value="1.8.0_92" />
     <property name="user.timezone" value="" />
-    <property name="env.JAVA_MAIN_CLASS_2423" value="org.apache.tools.ant.launch.Launcher" />
     <property name="sun.arch.data.model" value="64" />
     <property name="env._system_name" value="OSX" />
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
@@ -80,8 +80,8 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="java.class.path" value="/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/bin:/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/lib/jsoup-1.8.3.jar:/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/lib/junit-4.12.jar:/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.7/libexec/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiPhilosophyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/junit/TEST-com.flatironschool.javacs.WikiPhilosophyTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/junitvmwatcher8480208727696728804.properties propsfile=/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/junit4043358337409560069.properties" />
-    <property name="env.TERM_SESSION_ID" value="9B515A07-BD8E-4CB1-A813-BA5C838CCCC1" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiPhilosophyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/junit/TEST-com.flatironschool.javacs.WikiPhilosophyTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/junitvmwatcher2834069304834882685.properties propsfile=/Users/phuccao/Desktop/CS/codeu/lab05/javacs-lab05/junit2512339411144807567.properties" />
+    <property name="env.TERM_SESSION_ID" value="6490A15D-CB42-4FB9-A290-0018C408B293" />
     <property name="ant.file.type.JavaCS" value="file" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.file.type" value="file" />
@@ -92,7 +92,7 @@
     <property name="debuglevel" value="source,lines,vars" />
     <property name="java.io.tmpdir" value="/var/folders/bv/n5pw1wns26b_d4bgq3jbrym80000gn/T/" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.UuzrdAkdDF/Listeners" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.cYXkqiOuF5/Listeners" />
     <property name="os.arch" value="x86_64" />
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
     <property name="java.ext.dirs" value="/Users/phuccao/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
@@ -107,115 +107,20 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.WikiPhilosophyTest" name="testMain" time="41.255" />
-  <system-out><![CDATA[Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented,[14] and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA),[15] meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.[16] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture. As of 2016, Java is one of the most popular programming languages in use,[17][18][19][20] particularly for client-server web applications, with a reported 9 million developers.[citation needed] Java was originally developed by James Gosling at Sun Microsystems (which has since been acquired by Oracle Corporation) and released in 1995 as a core component of Sun Microsystems' Java platform. The language derives much of its syntax from C and C++, but it has fewer low-level facilities than either of them.
-
-Java
-computer programming language
+  <testcase classname="com.flatironschool.javacs.WikiPhilosophyTest" name="testMain" time="12.323" />
+  <system-out><![CDATA[
 https://en.wikipedia.org/wiki/Programming_language
-A programming language is a formal computer language or constructed language designed to communicate instructions to a machine, particularly a computer. Programming languages can be used to create programs to control the behavior of a machine or to express algorithms.
-programming language
-formal
 https://en.wikipedia.org/wiki/Formal_language
-In mathematics, computer science, and linguistics, a formal language is a set of strings of symbols that may be constrained by rules that are specific to it.
-mathematics
 https://en.wikipedia.org/wiki/Mathematics
-Mathematics (from Greek μάθημα máthēma, “knowledge, study, learning”) is the study of topics such as quantity (numbers),[2] structure,[3] space,[2] and change.[4][5][6] There is a range of views among mathematicians and philosophers as to the exact scope and definition of mathematics.[7][8]
-Mathematics
-Greek
-https://en.wikipedia.org/wiki/Ancient_Greek
-Ancient Greek includes the forms of Greek used in ancient Greece and the ancient world from around the 9th century BCE to the 6th century CE. It is often roughly divided into the Archaic period (9th to 6th centuries BCE), Classical period (5th and 4th centuries BCE), and Hellenistic period (3rd century BCE to 6th century CE). It is antedated in the second millennium BCE by Mycenaean Greek.
-Ancient Greek
-Greek
-https://en.wikipedia.org/wiki/Greek_language
-Greek or Hellenic[10][11] (Modern Greek: ελληνικά [eliniˈka], elliniká, "Greek", ελληνική γλώσσα [eliniˈci ˈɣlosa] ( listen), ellinikí glóssa, "Greek language") is an independent branch of the Indo-European family of languages, native to Greece, western and northeastern Asia Minor, southern Italy, Albania and Cyprus. It has the longest documented history of any living language, spanning 34 centuries of written records.[12] Its writing system has been the Greek alphabet for the majority of its history; other systems, such as Linear B and the Cypriot syllabary, were used previously. The alphabet arose from the Phoenician script and was in turn the basis of the Latin, Cyrillic, Armenian, Coptic, Gothic and many other writing systems.
-Greek
-Hellenic
-[10]
-[10]
-https://en.wikipedia.org/wiki/Greek_language#cite_note-10
-Greek or Hellenic[10][11] (Modern Greek: ελληνικά [eliniˈka], elliniká, "Greek", ελληνική γλώσσα [eliniˈci ˈɣlosa] ( listen), ellinikí glóssa, "Greek language") is an independent branch of the Indo-European family of languages, native to Greece, western and northeastern Asia Minor, southern Italy, Albania and Cyprus. It has the longest documented history of any living language, spanning 34 centuries of written records.[12] Its writing system has been the Greek alphabet for the majority of its history; other systems, such as Linear B and the Cypriot syllabary, were used previously. The alphabet arose from the Phoenician script and was in turn the basis of the Latin, Cyrillic, Armenian, Coptic, Gothic and many other writing systems.
-Greek
-Hellenic
-[10]
-[10]
-[11]
-[11]
-https://en.wikipedia.org/wiki/Greek_language#cite_note-Ethnologue-11
-Greek or Hellenic[10][11] (Modern Greek: ελληνικά [eliniˈka], elliniká, "Greek", ελληνική γλώσσα [eliniˈci ˈɣlosa] ( listen), ellinikí glóssa, "Greek language") is an independent branch of the Indo-European family of languages, native to Greece, western and northeastern Asia Minor, southern Italy, Albania and Cyprus. It has the longest documented history of any living language, spanning 34 centuries of written records.[12] Its writing system has been the Greek alphabet for the majority of its history; other systems, such as Linear B and the Cypriot syllabary, were used previously. The alphabet arose from the Phoenician script and was in turn the basis of the Latin, Cyrillic, Armenian, Coptic, Gothic and many other writing systems.
-Greek
-Hellenic
-[10]
-[10]
-[11]
-[11]
-Modern Greek
-https://en.wikipedia.org/wiki/Modern_Greek
-Modern Greek (νέα ελληνικά [ˈnea eliniˈka] or νεοελληνική γλώσσα [neoeliniˈci ˈɣlosa] "Neo-Hellenic", historically and colloquially also known as Ρωμαίικα "Romaic" or "Roman", and Γραικικά "Greek") refers to the dialects and varieties of the Greek language spoken in the modern era.
-Modern Greek
-νέα ελληνικά
-[ˈnea eliniˈka]
-[ˈnea eliniˈka]
-https://en.wikipedia.org/wiki/Help:IPA_for_Greek
-The charts below show how the International Phonetic Alphabet (IPA) represents the Ancient Greek and Modern Greek pronunciations in Wikipedia articles. The Ancient Greek pronunciation shown here is a reconstruction of the Attic dialect in the 5th century BC.
-International Phonetic Alphabet (IPA)
-https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
-The International Phonetic Alphabet (unofficially—though commonly—abbreviated IPA)[note 1] is an alphabetic system of phonetic notation based primarily on the Latin alphabet. It was devised by the International Phonetic Association as a standardized representation of the sounds of oral language.[1] The IPA is used by lexicographers, foreign language students and teachers, linguists, speech-language pathologists, singers, actors, constructed language creators, and translators.[2][3]
-International Phonetic Alphabet
-IPA
-[note 1]
-[note 1]
-https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#cite_note-1
-The International Phonetic Alphabet (unofficially—though commonly—abbreviated IPA)[note 1] is an alphabetic system of phonetic notation based primarily on the Latin alphabet. It was devised by the International Phonetic Association as a standardized representation of the sounds of oral language.[1] The IPA is used by lexicographers, foreign language students and teachers, linguists, speech-language pathologists, singers, actors, constructed language creators, and translators.[2][3]
-International Phonetic Alphabet
-IPA
-[note 1]
-[note 1]
-alphabetic
-https://en.wikipedia.org/wiki/Alphabet
-An alphabet is a standard set of letters (basic written symbols or graphemes) that is used to write one or more languages based on the general principle that the letters represent phonemes (basic significant sounds) of the spoken language. This is in contrast to other types of writing systems, such as syllabaries (in which each character represents a syllable) and logographies (in which each character represents a word, morpheme, or semantic unit).
-alphabet
-letters
-https://en.wikipedia.org/wiki/Letter_(alphabet)
-A letter is a grapheme (written character) in an alphabetic system of writing, such as the Greek alphabet and its descendants. Letters also appear in abjads and abugidas (variants of alphabets in which vowel marking is secondary or absent). Letters broadly denote phonemes in the spoken form of the language, although there is rarely a consistent exact correspondence between letters and phonemes.
-letter
-grapheme
-https://en.wikipedia.org/wiki/Grapheme
-In linguistics, a grapheme is the smallest unit of a writing system of any given language.[1] An individual grapheme may or may not carry meaning by itself, and may or may not correspond to a single phoneme of the spoken language. Graphemes include alphabetic letters, typographic ligatures, Chinese characters, numerical digits, punctuation marks, and other individual symbols.
-linguistics
-https://en.wikipedia.org/wiki/Linguistics
-Linguistics is the scientific[1] study of language.[2] There are three aspects to this study: language form, language meaning, and language in context.[3] The earliest activities in the description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who was an early student of linguistics[4][5] and wrote a formal description of the Sanskrit language in his Aṣṭādhyāyī.[6]
-Linguistics
-scientific
-https://en.wikipedia.org/wiki/Science
-Science[nb 1] is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.[nb 2][2]:58
-Science
-[nb 1]
-[nb 1]
-https://en.wikipedia.org/wiki/Science#cite_note-2
-Science[nb 1] is a systematic enterprise that builds and organizes knowledge in the form of testable explanations and predictions about the universe.[nb 2][2]:58
-Science
-[nb 1]
-[nb 1]
-knowledge
+Link is in parenthesis!
+https://en.wikipedia.org/wiki/Mathematician
 https://en.wikipedia.org/wiki/Knowledge
-Knowledge is a familiarity, awareness or understanding of someone or something, such as facts, information, descriptions, or skills, which is acquired through experience or education by perceiving, discovering, or learning.
-Knowledge
-awareness
 https://en.wikipedia.org/wiki/Awareness
-Awareness is the ability to directly know and perceive, to feel, or to be conscious of events, objects, thoughts, emotions, or sensory patterns.[1] In this level of consciousness, sense data can be confirmed by an observer without necessarily implying understanding. More broadly, it is the state or quality of being aware of something. In biological psychology, awareness is defined as a human's or an animal's perception and cognitive reaction to a condition or event.
-Awareness
-conscious
 https://en.wikipedia.org/wiki/Conscious
-Consciousness is the state or quality of awareness that is more advanced than the primitive awareness that insects have. Being conscious is also being aware of something within oneself, such as ideas and thoughts.[1][2] It has been defined as: sentience, awareness, subjectivity, the ability to experience or to feel, wakefulness, having a sense of selfhood, and the executive control system of the mind.[3] Despite the difficulty in definition, many philosophers believe that there is a broadly shared underlying intuition about what consciousness is.[4] As Max Velmans and Susan Schneider wrote in The Blackwell Companion to Consciousness: "Anything that we are aware of at a given moment forms part of our consciousness, making conscious experience at once the most familiar and most mysterious aspect of our lives."[5]
-Consciousness
-quality
 https://en.wikipedia.org/wiki/Quality_(philosophy)
-In philosophy, a quality (from Latin: qualitas)[1] is an attribute or a property.[2] In contemporary philosophy the idea of qualities, and especially how to distinguish certain kinds of qualities from one another, remains controversial.[2]
-philosophy
 https://en.wikipedia.org/wiki/Philosophy
 Succeed!
-[, https://en.wikipedia.org/wiki/Programming_language, https://en.wikipedia.org/wiki/Greek_language#cite_note-Ethnologue-11, https://en.wikipedia.org/wiki/Modern_Greek, https://en.wikipedia.org/wiki/Quality_(philosophy), https://en.wikipedia.org/wiki/Science, https://en.wikipedia.org/wiki/Philosophy, https://en.wikipedia.org/wiki/Greek_language, https://en.wikipedia.org/wiki/Ancient_Greek, https://en.wikipedia.org/wiki/Alphabet, https://en.wikipedia.org/wiki/Knowledge, https://en.wikipedia.org/wiki/Conscious, https://en.wikipedia.org/wiki/Mathematics, https://en.wikipedia.org/wiki/International_Phonetic_Alphabet, https://en.wikipedia.org/wiki/Grapheme, https://en.wikipedia.org/wiki/Letter_(alphabet), https://en.wikipedia.org/wiki/Awareness, https://en.wikipedia.org/wiki/Help:IPA_for_Greek, https://en.wikipedia.org/wiki/Formal_language, https://en.wikipedia.org/wiki/Linguistics, https://en.wikipedia.org/wiki/Greek_language#cite_note-10, https://en.wikipedia.org/wiki/International_Phonetic_Alphabet#cite_note-1, https://en.wikipedia.org/wiki/Science#cite_note-2]
+[, https://en.wikipedia.org/wiki/Awareness, https://en.wikipedia.org/wiki/Programming_language, https://en.wikipedia.org/wiki/Mathematician, https://en.wikipedia.org/wiki/Quality_(philosophy), https://en.wikipedia.org/wiki/Formal_language, https://en.wikipedia.org/wiki/Philosophy, https://en.wikipedia.org/wiki/Knowledge, https://en.wikipedia.org/wiki/Conscious, https://en.wikipedia.org/wiki/Mathematics]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
